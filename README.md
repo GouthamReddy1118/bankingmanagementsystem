@@ -1,18 +1,43 @@
-## Getting Started
+# Banking Management System
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Project Description
 
-## Folder Structure
+The Banking Management System is a Java console-based application developed using Object-Oriented Programming concepts.
 
-The workspace contains two folders by default, where:
+The system allows users to create and manage different types of bank accounts and perform basic banking operations.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Features
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- Create Savings Account
+- Create Checking Account
+- Create Student Account
+- Deposit Money
+- Withdraw Money
+- Display Account Details
+- Find Account
+- Remove Account
+- Calculate Interest for Savings Account
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Technologies Used
 
-## Dependency Management
+- Java
+- Object-Oriented Programming
+- ArrayList
+- Visual Studio Code
+- GitHub
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Project Structure
+
+```text
+src
+├── model
+│   ├── Account.java
+│   ├── SavingsAccount.java
+│   ├── CheckingAccount.java
+│   └── StudentAccount.java
+│
+├── service
+│   └── BankService.java
+│
+└── main
+    └── Main.java
